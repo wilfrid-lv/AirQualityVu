@@ -9,7 +9,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.airquality.databinding.FragmentSecondBinding
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 

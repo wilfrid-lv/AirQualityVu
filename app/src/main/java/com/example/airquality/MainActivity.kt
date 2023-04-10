@@ -59,4 +59,10 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+    @Composable
+    override fun Greeting(name: String) {
+        Text(text = "Hello $name!")
+    }
+
 }
